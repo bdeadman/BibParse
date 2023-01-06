@@ -1,6 +1,6 @@
 # A module to parse .bib file to DataFrame and .xlsx
 
-Best practive is to use a tool like ´Zotero´ (https://www.zotero.org/) to store all your papers etc. and create a .bib file of them. Using the betterbibtex extension (https://retorque.re/zotero-better-bibtex/installation/) allows to create an auto-updating .bib file from Zotero.
+Best practive is to use a tool like 'Zotero' (https://www.zotero.org/) to store all your papers etc. and create a .bib file of them. Using the betterbibtex extension (https://retorque.re/zotero-better-bibtex/installation/) allows to create an auto-updating .bib file from Zotero.
 
 After you have installed Zotero and the extensions following above links, right click on a folder in your library -> export Collection -> Format: Better BibTex -> check Export Notes and Keep Updated.
 Select a file in this folder. If you want to keep default configs, name it "bibliography.bib". 
