@@ -2,7 +2,7 @@
 
 Best practive is to use a tool like Zotero (https://www.zotero.org/) to store all your papers etc. and create a .bib file of them. Using the betterbibtex extension (https://retorque.re/zotero-better-bibtex/installation/) allows to create an auto-updating .bib file from Zotero.
 
-Right click on a folder in your library -> export Collection -> Format: Better BibTex -> check Export Notes and Keep Updated.
+After you have installed Zotero and the extensions following above links, right click on a folder in your library -> export Collection -> Format: Better BibTex -> check Export Notes and Keep Updated.
 Select a file in this folder. If you want to keep default configs, name it "bibliography.bib". 
 
 Now you have an auto-updating file with all metadata collected on all literature in your zotero folder.
