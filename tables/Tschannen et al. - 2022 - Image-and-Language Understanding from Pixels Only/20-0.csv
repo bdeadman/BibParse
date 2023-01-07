@@ -1,6 +1,0 @@
-,0.6-,Image Text Retrieval CLIP* 1T-CLIP
-0,0.4- recall@1 0.2-,CLIPPO --
-1,0.0,Text Image Retrieval
-2,0.4- recall@1 0.2- 0.0-,CLIP* 1T-CLIP CLIPPO - -
-3,,"Telugu- Bengali Maori- Hindi Swahili Thai Filipino- Korean- Hebrew- Arabic- Chinese- Finnish- Greek, Modern- English Japanese- Turkish- Persian- Czech- Hungarian Vietnamese- Ukrainian- Cusco Quechua Croatian- Danish- Polish- tobe Norwegian Dutch, Flemish- Italian- Portuguese- Russian- French- Indonesian- German- Swedish- Moldavian, Moldovan- Spanish, Castilian-"
-4,,","

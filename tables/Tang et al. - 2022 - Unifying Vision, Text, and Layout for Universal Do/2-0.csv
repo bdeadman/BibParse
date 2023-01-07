@@ -1,5 +1,0 @@
-,Model,Modality,Question,Answering,,Information,Extraction,Table,QA/NLI,Avg.
-0,,,DocVQA,InfoVQA,KLC,PWC,DeepForm,WTQ,TabFact,
-1,UDOP (224),V+T+L,84.4,46.1,82.1,26.7,83.6,46.1,78.2,63.9
-2,UDOP (512),V+T+L,84.5,47.3,82.0,27.1,84.7,46.2,78.3,64.3
-3,UDOP (1024),V+T+L,84.7,47.4,82.8,28.9,85.5,47.2,78.9,65.1

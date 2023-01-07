@@ -1,9 +1,0 @@
-,(b) Prediction,(c) Ground Truth,
-0,"{ ""menu"": [ { ""cnt"": [""1""], ""nm"": ""cashew nuts chkn""], ""price"": [""64,500""] },","{ ""menu"": [ { ""cnt"": [""1""], ""nm"": ""cashew nuts chkn""], ""price"": [""64,500""] },",
-1,"{ ""cnt"": [""4""], ""nm"": ""steamed rice""], ""price"": [""47,600""] }","{ ""cnt"": [""4""], ""nm"": ""steamed rice""], ""price"": [""47,600""] }",
-2,"lisub ""sub_total"": [ ""service_price"": [""17,908""], ""subtotal_price"": [""325,600""], ""tax_price"": [""34,351""] } Hitotal"": [ { ""total_price"": [""377,859""] }] }","sub_total"": [ ""service_price"": [""17,908""], ""subtotal_price"": [""325,600""], ""tax_price"": [""34,351""] } Hitotal"": [ { ""total_price"": [""377,859""] }] }",
-3,"{ ""menu"": [ {","{ ""menu"": [ {",
-4,"""cnt"": [""2""], ""nm"": ""TWIST DONUT""], ""price"": [""18,000""] },","""cnt"": [""2""], ""nm"":""TWIST DONUT""], ""price"": [""18,000""] },",
-5,"{ ""cnt"": [""1""], ""nm"": ""FRANKFRUT SAUSAGE ROLL""], ""price"": [""12,000""] } total"": [ ""cashprice"": [""104.000""], ""changeprice"": [""56.000""], ""total_price"": [""54.000""] }] }","{ ""cnt"": [""1""], ""nm"": [""FRANKFRUT SAUSAGE ROLL""price"": [""12,000""] } liotal"": [ ""cashprice"": [""104.000""], ""changeprice"": [""50.000""], ""total_price"": [""54.000""] }] }","""]"
-6,"{ ""menu"": [ ""nm"": [""TRAD KY TOAST CARTE""], ""price"": [""28.182""] } ""sub_total"": [ isub ""subtotal_price"": [""28.182""], ""tax_price"": [""2.818""] } kitotal"": [","{ ""menu"": [ ""nm"": [""TRAD KY TOAST CARTE""], ""price"": [""28.182""] } ""sub_total"": [ ""subtotal_price"": [""28.182""], ""tax_price"": [""2.818""] } Hitotal"": [ {",
-7,"""cashprice"": [""31.000""], ""total_price"": [""31.000"" }]","""cashprice"": [""31.000""], ""menuqty_cnt"": [""1.00""], ""total_price"": [""31.000""] }] }",

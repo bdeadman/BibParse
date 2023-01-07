@@ -1,7 +1,0 @@
-,,OCR,#Params,Time (ms),Accuracy (%)
-0,BERT,✓,110M + at,1392,89.81
-1,ROBERTA,✓,125M + at,1392,90.06
-2,LayoutLM,,113Maat,1396,91.78
-3,LayoutLM (w/image),✓,160M + at,1426,94.42
-4,LayoutLMv2,✓,200Ma at,1489,95.25
-5,Donut (Proposed),,143M,752,95.30

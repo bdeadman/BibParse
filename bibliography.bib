@@ -15,6 +15,40 @@
   file = {/home/lukas/Zotero/storage/RL79VJYU/Appalaraju et al. - 2021 - DocFormer End-to-End Transformer for Document Und.pdf}
 }
 
+@misc{chenTabFactLargescaleDataset2020,
+  title = {{{TabFact}}: {{A Large-scale Dataset}} for {{Table-based Fact Verification}}},
+  shorttitle = {{{TabFact}}},
+  author = {Chen, Wenhu and Wang, Hongmin and Chen, Jianshu and Zhang, Yunkai and Wang, Hong and Li, Shiyang and Zhou, Xiyou and Wang, William Yang},
+  year = {2020},
+  month = jun,
+  number = {arXiv:1909.02164},
+  eprint = {1909.02164},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {The problem of verifying whether a textual hypothesis holds based on the given evidence, also known as fact verification, plays an important role in the study of natural language understanding and semantic representation. However, existing studies are mainly restricted to dealing with unstructured evidence (e.g., natural language sentences and documents, news, etc), while verification under structured evidence, such as tables, graphs, and databases, remains under-explored. This paper specifically aims to study the fact verification given semi-structured data as evidence. To this end, we construct a large-scale dataset called TabFact with 16k Wikipedia tables as the evidence for 118k human-annotated natural language statements, which are labeled as either ENTAILED or REFUTED. TabFact is challenging since it involves both soft linguistic reasoning and hard symbolic reasoning. To address these reasoning challenges, we design two different models: Table-BERT and Latent Program Algorithm (LPA). Table-BERT leverages the state-of-the-art pre-trained language model to encode the linearized tables and statements into continuous vectors for verification. LPA parses statements into programs and executes them against the tables to obtain the returned binary value for verification. Both methods achieve similar accuracy but still lag far behind human performance. We also perform a comprehensive analysis to demonstrate great future opportunities. The data and code of the dataset are provided in \textbackslash url\{https://github.com/wenhuchen/Table-Fact-Checking\}.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/ZUDSI4F3/Chen et al. - 2020 - TabFact A Large-scale Dataset for Table-based Fac.pdf}
+}
+
+@misc{chenWebSRCDatasetWebBased2021,
+  title = {{{WebSRC}}: {{A Dataset}} for {{Web-Based Structural Reading Comprehension}}},
+  shorttitle = {{{WebSRC}}},
+  author = {Chen, Xingyu and Zhao, Zihan and Chen, Lu and Zhang, Danyang and Ji, Jiabao and Luo, Ao and Xiong, Yuxuan and Yu, Kai},
+  year = {2021},
+  month = nov,
+  number = {arXiv:2101.09465},
+  eprint = {2101.09465},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {Web search is an essential way for humans to obtain information, but it's still a great challenge for machines to understand the contents of web pages. In this paper, we introduce the task of structural reading comprehension (SRC) on web. Given a web page and a question about it, the task is to find the answer from the web page. This task requires a system not only to understand the semantics of texts but also the structure of the web page. Moreover, we proposed WebSRC, a novel Web-based Structural Reading Comprehension dataset. WebSRC consists of 400K question-answer pairs, which are collected from 6.4K web pages. Along with the QA pairs, corresponding HTML source code, screenshots, and metadata are also provided in our dataset. Each question in WebSRC requires a certain structural understanding of a web page to answer, and the answer is either a text span on the web page or yes/no. We evaluate various baselines on our dataset to show the difficulty of our task. We also investigate the usefulness of structural information and visual features. Our dataset and baselines have been publicly available at https://x-lance.github.io/WebSRC/.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/BA5EA7LE/Chen et al. - 2021 - WebSRC A Dataset for Web-Based Structural Reading.pdf}
+}
+
 @misc{devlinBERTPretrainingDeep2019,
   title = {{{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for {{Language Understanding}}},
   shorttitle = {{{BERT}}},
@@ -32,6 +66,82 @@
   file = {/home/lukas/Zotero/storage/8DGU43DW/Devlin et al. - 2019 - BERT Pre-training of Deep Bidirectional Transform.pdf}
 }
 
+@misc{harleyEvaluationDeepConvolutional2015,
+  title = {Evaluation of {{Deep Convolutional Nets}} for {{Document Image Classification}} and {{Retrieval}}},
+  author = {Harley, Adam W. and Ufkes, Alex and Derpanis, Konstantinos G.},
+  year = {2015},
+  month = feb,
+  number = {arXiv:1502.07058},
+  eprint = {1502.07058},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {This paper presents a new state-of-the-art for document image classification and retrieval, using features learned by deep convolutional neural networks (CNNs). In object and scene analysis, deep neural nets are capable of learning a hierarchical chain of abstraction from pixel inputs to concise and descriptive representations. The current work explores this capacity in the realm of document analysis, and confirms that this representation strategy is superior to a variety of popular hand-crafted alternatives. Experiments also show that (i) features extracted from CNNs are robust to compression, (ii) CNNs trained on non-document images transfer well to document analysis tasks, and (iii) enforcing region-specific feature-learning is unnecessary given sufficient training data. This work also makes available a new labelled subset of the IIT-CDIP collection, containing 400,000 document images across 16 categories, useful for training new CNNs for document analysis.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Information Retrieval,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing},
+  file = {/home/lukas/Zotero/storage/AZBIKD2R/Harley et al. - 2015 - Evaluation of Deep Convolutional Nets for Document.pdf}
+}
+
+@misc{huangLayoutLMv3PretrainingDocument2022,
+  title = {{{LayoutLMv3}}: {{Pre-training}} for {{Document AI}} with {{Unified Text}} and {{Image Masking}}},
+  shorttitle = {{{LayoutLMv3}}},
+  author = {Huang, Yupan and Lv, Tengchao and Cui, Lei and Lu, Yutong and Wei, Furu},
+  year = {2022},
+  month = jul,
+  number = {arXiv:2204.08387},
+  eprint = {2204.08387},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {Self-supervised pre-training techniques have achieved remarkable progress in Document AI. Most multimodal pre-trained models use a masked language modeling objective to learn bidirectional representations on the text modality, but they differ in pre-training objectives for the image modality. This discrepancy adds difficulty to multimodal representation learning. In this paper, we propose \textbackslash textbf\{LayoutLMv3\} to pre-train multimodal Transformers for Document AI with unified text and image masking. Additionally, LayoutLMv3 is pre-trained with a word-patch alignment objective to learn cross-modal alignment by predicting whether the corresponding image patch of a text word is masked. The simple unified architecture and training objectives make LayoutLMv3 a general-purpose pre-trained model for both text-centric and image-centric Document AI tasks. Experimental results show that LayoutLMv3 achieves state-of-the-art performance not only in text-centric tasks, including form understanding, receipt understanding, and document visual question answering, but also in image-centric tasks such as document image classification and document layout analysis. The code and models are publicly available at \textbackslash url\{https://aka.ms/layoutlmv3\}.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/lukas/Zotero/storage/IP9AALAI/Huang et al. - 2022 - LayoutLMv3 Pre-training for Document AI with Unif.pdf}
+}
+
+@misc{jaumeFUNSDDatasetForm2019,
+  title = {{{FUNSD}}: {{A Dataset}} for {{Form Understanding}} in {{Noisy Scanned Documents}}},
+  shorttitle = {{{FUNSD}}},
+  author = {Jaume, Guillaume and Ekenel, Hazim Kemal and Thiran, Jean-Philippe},
+  year = {2019},
+  month = oct,
+  number = {arXiv:1905.13538},
+  eprint = {1905.13538},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  abstract = {We present a new dataset for form understanding in noisy scanned documents (FUNSD) that aims at extracting and structuring the textual content of forms. The dataset comprises 199 real, fully annotated, scanned forms. The documents are noisy and vary widely in appearance, making form understanding (FoUn) a challenging task. The proposed dataset can be used for various tasks, including text detection, optical character recognition, spatial layout analysis, and entity labeling/linking. To the best of our knowledge, this is the first publicly available dataset with comprehensive annotations to address FoUn task. We also present a set of baselines and introduce metrics to evaluate performance on the FUNSD dataset, which can be downloaded at https://guillaumejaume.github.io/FUNSD/.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Information Retrieval,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/home/lukas/Zotero/storage/5X2CWGSD/Jaume et al. - 2019 - FUNSD A Dataset for Form Understanding in Noisy S.pdf}
+}
+
+@article{karatzasInfographicVQA2022,
+  title = {{{InfographicVQA}}},
+  author = {Karatzas, Dimosthenis and Valveny, Ernest and Jawahar, C V},
+  year = {2022},
+  abstract = {Infographics communicate information using a combination of textual, graphical and visual elements. This work explores the automatic understanding of infographic images by using a Visual Question Answering technique. To this end, we present InfographicVQA, a new dataset comprising a diverse collection of infographics and question-answer annotations. The questions require methods that jointly reason over the document layout, textual content, graphical elements, and data visualizations. We curate the dataset with an emphasis on questions that require elementary reasoning and basic arithmetic skills. For VQA on the dataset, we evaluate two Transformer-based strong baselines. Both the baselines yield unsatisfactory results compared to near perfect human performance on the dataset. The results suggest that VQA on infographics\textemdash images that are designed to communicate information quickly and clearly to human brain\textemdash is ideal for benchmarking machine understanding of complex document images. The dataset is available for download at docvqa.org},
+  langid = {english},
+  file = {/home/lukas/Zotero/storage/PW9T5545/Karatzas et al. - 2022 - InfographicVQA.pdf}
+}
+
+@misc{kardasAxCellAutomaticExtraction2020,
+  title = {{{AxCell}}: {{Automatic Extraction}} of {{Results}} from {{Machine Learning Papers}}},
+  shorttitle = {{{AxCell}}},
+  author = {Kardas, Marcin and Czapla, Piotr and Stenetorp, Pontus and Ruder, Sebastian and Riedel, Sebastian and Taylor, Ross and Stojnic, Robert},
+  year = {2020},
+  month = apr,
+  number = {arXiv:2004.14356},
+  eprint = {2004.14356},
+  eprinttype = {arxiv},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  abstract = {Tracking progress in machine learning has become increasingly difficult with the recent explosion in the number of papers. In this paper, we present AxCell, an automatic machine learning pipeline for extracting results from papers. AxCell uses several novel components, including a table segmentation subtask, to learn relevant structural knowledge that aids extraction. When compared with existing methods, our approach significantly improves the state of the art for results extraction. We also release a structured, annotated dataset for training models for results extraction, and a dataset for evaluating the performance of models on this task. Lastly, we show the viability of our approach enables it to be used for semi-automated results extraction in production, suggesting our improvements make this task practically viable for the first time. Code is available on GitHub.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Statistics - Machine Learning},
+  file = {/home/lukas/Zotero/storage/H3SZEVVE/Kardas et al. - 2020 - AxCell Automatic Extraction of Results from Machi.pdf}
+}
+
 @misc{kimOCRfreeDocumentUnderstanding2022,
   title = {{{OCR-free Document Understanding Transformer}}},
   author = {Kim, Geewook and Hong, Teakgyu and Yim, Moonbin and Nam, Jeongyeon and Park, Jinyoung and Yim, Jinyeong and Hwang, Wonseok and Yun, Sangdoo and Han, Dongyoon and Park, Seunghyun},
@@ -46,7 +156,6 @@
   archiveprefix = {arXiv},
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
-  note = {Code: https://github.com/clovaai/donut},
   file = {/home/lukas/Zotero/storage/BKDZI4V7/Kim et al. - 2022 - OCR-free Document Understanding Transformer.pdf}
 }
 
@@ -67,6 +176,57 @@
   file = {/home/lukas/Zotero/storage/A9IN4L94/Lewis et al. - 2019 - BART Denoising Sequence-to-Sequence Pre-training .pdf}
 }
 
+@misc{liDocBankBenchmarkDataset2020,
+  title = {{{DocBank}}: {{A Benchmark Dataset}} for {{Document Layout Analysis}}},
+  shorttitle = {{{DocBank}}},
+  author = {Li, Minghao and Xu, Yiheng and Cui, Lei and Huang, Shaohan and Wei, Furu and Li, Zhoujun and Zhou, Ming},
+  year = {2020},
+  month = nov,
+  number = {arXiv:2006.01038},
+  eprint = {2006.01038},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {Document layout analysis usually relies on computer vision models to understand documents while ignoring textual information that is vital to capture. Meanwhile, high quality labeled datasets with both visual and textual information are still insufficient. In this paper, we present \textbackslash textbf\{DocBank\}, a benchmark dataset that contains 500K document pages with fine-grained token-level annotations for document layout analysis. DocBank is constructed using a simple yet effective way with weak supervision from the \textbackslash LaTeX\{\} documents available on the arXiv.com. With DocBank, models from different modalities can be compared fairly and multi-modal approaches will be further investigated and boost the performance of document layout analysis. We build several strong baselines and manually split train/dev/test sets for evaluation. Experiment results show that models trained on DocBank accurately recognize the layout information for a variety of documents. The DocBank dataset is publicly available at \textbackslash url\{https://github.com/doc-analysis/DocBank\}.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/RRS29ZUC/Li et al. - 2020 - DocBank A Benchmark Dataset for Document Layout A.pdf}
+}
+
+@misc{liSelfDocSelfSupervisedDocument2021,
+  title = {{{SelfDoc}}: {{Self-Supervised Document Representation Learning}}},
+  shorttitle = {{{SelfDoc}}},
+  author = {Li, Peizhao and Gu, Jiuxiang and Kuen, Jason and Morariu, Vlad I. and Zhao, Handong and Jain, Rajiv and Manjunatha, Varun and Liu, Hongfu},
+  year = {2021},
+  month = jun,
+  number = {arXiv:2106.03331},
+  eprint = {2106.03331},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {We propose SelfDoc, a task-agnostic pre-training framework for document image understanding. Because documents are multimodal and are intended for sequential reading, our framework exploits the positional, textual, and visual information of every semantically meaningful component in a document, and it models the contextualization between each block of content. Unlike existing document pre-training models, our model is coarse-grained instead of treating individual words as input, therefore avoiding an overly fine-grained with excessive contextualization. Beyond that, we introduce cross-modal learning in the model pre-training phase to fully leverage multimodal information from unlabeled documents. For downstream usage, we propose a novel modality-adaptive attention mechanism for multimodal feature fusion by adaptively emphasizing language and vision signals. Our framework benefits from self-supervised pre-training on documents without requiring annotations by a feature masking training strategy. It achieves superior performance on multiple downstream tasks with significantly fewer document images used in the pre-training stage compared to previous works.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/lukas/Zotero/storage/JL3SCAIN/Li et al. - 2021 - SelfDoc Self-Supervised Document Representation L.pdf}
+}
+
+@misc{mathewDocVQADatasetVQA2021,
+  title = {{{DocVQA}}: {{A Dataset}} for {{VQA}} on {{Document Images}}},
+  shorttitle = {{{DocVQA}}},
+  author = {Mathew, Minesh and Karatzas, Dimosthenis and Jawahar, C. V.},
+  year = {2021},
+  month = jan,
+  number = {arXiv:2007.00398},
+  eprint = {2007.00398},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {We present a new dataset for Visual Question Answering (VQA) on document images called DocVQA. The dataset consists of 50,000 questions defined on 12,000+ document images. Detailed analysis of the dataset in comparison with similar datasets for VQA and reading comprehension is presented. We report several baseline results by adopting existing VQA and reading comprehension models. Although the existing models perform reasonably well on certain types of questions, there is large performance gap compared to human performance (94.36\% accuracy). The models need to improve specifically on questions where understanding structure of the document is crucial. The dataset, code and leaderboard are available at docvqa.org},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Information Retrieval},
+  file = {/home/lukas/Zotero/storage/DLC9KZXL/Mathew et al. - 2021 - DocVQA A Dataset for VQA on Document Images.pdf}
+}
+
 @inproceedings{NIPS2017_3f5ee243,
   title = {Attention Is All You Need},
   booktitle = {Advances in Neural Information Processing Systems},
@@ -77,6 +237,65 @@
   publisher = {{Curran Associates, Inc.}},
   abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.},
   file = {/home/lukas/Zotero/storage/TJSDZBH6/Vaswani et al. - Attention is All you Need.pdf}
+}
+
+@article{parkCORDConsolidatedReceipt2019,
+  title = {{{CORD}}: {{A Consolidated Receipt Dataset}} for {{Post-OCR Parsing}}},
+  author = {Park, Seunghyun and Shin, Seung and Lee, Bado and Lee, Junyeop and Surh, Jaeheung and Seo, Minjoon and Lee, Hwalsuk},
+  year = {2019},
+  abstract = {OCR is inevitably linked to NLP since its final output is in text. Advances in document intelligence are driving the need for a unified technology that integrates OCR with various NLP tasks, especially semantic parsing. Since OCR and semantic parsing have been studied as separate tasks so far, the datasets for each task on their own are rich, while those for the integrated post-OCR parsing tasks are relatively insufficient. In this study, we publish a consolidated dataset for receipt parsing as the first step towards post-OCR parsing tasks. The dataset consists of thousands of Indonesian receipts, which contains images and box/text annotations for OCR, and multi-level semantic labels for parsing. The proposed dataset can be used to address various OCR and parsing tasks.},
+  langid = {english},
+  file = {/home/lukas/Zotero/storage/XWGNI4QM/Park et al. - CORD A Consolidated Receipt Dataset for Post-OCR .pdf}
+}
+
+@misc{pasupatCompositionalSemanticParsing2015,
+  title = {Compositional {{Semantic Parsing}} on {{Semi-Structured Tables}}},
+  author = {Pasupat, Panupong and Liang, Percy},
+  year = {2015},
+  month = aug,
+  number = {arXiv:1508.00305},
+  eprint = {1508.00305},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {Two important aspects of semantic parsing for question answering are the breadth of the knowledge source and the depth of logical compositionality. While existing work trades off one aspect for another, this paper simultaneously makes progress on both fronts through a new task: answering complex questions on semi-structured tables using question-answer pairs as supervision. The central challenge arises from two compounding factors: the broader domain results in an open-ended set of relations, and the deeper compositionality results in a combinatorial explosion in the space of logical forms. We propose a logical-form driven parsing algorithm guided by strong typing constraints and show that it obtains significant improvements over natural baselines. For evaluation, we created a new dataset of 22,033 complex questions on Wikipedia tables, which is made publicly available.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/B2LDHPQP/Pasupat and Liang - 2015 - Compositional Semantic Parsing on Semi-Structured .pdf}
+}
+
+@incollection{stanislawekKleisterKeyInformation2021,
+  title = {Kleister: {{Key Information Extraction Datasets Involving Long Documents}} with {{Complex Layouts}}},
+  shorttitle = {Kleister},
+  author = {Stanis{\l}awek, Tomasz and Grali{\'n}ski, Filip and Wr{\'o}blewska, Anna and Lipi{\'n}ski, Dawid and Kaliska, Agnieszka and Rosalska, Paulina and Topolski, Bartosz and Biecek, Przemys{\l}aw},
+  year = {2021},
+  volume = {12821},
+  eprint = {2105.05796},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  pages = {564--579},
+  doi = {10.1007/978-3-030-86549-8_36},
+  abstract = {The relevance of the Key Information Extraction (KIE) task is increasingly important in natural language processing problems. But there are still only a few well-defined problems that serve as benchmarks for solutions in this area. To bridge this gap, we introduce two new datasets (Kleister NDA and Kleister Charity). They involve a mix of scanned and born-digital long formal English-language documents. In these datasets, an NLP system is expected to find or infer various types of entities by employing both textual and structural layout features. The Kleister Charity dataset consists of 2,788 annual financial reports of charity organizations, with 61,643 unique pages and 21,612 entities to extract. The Kleister NDA dataset has 540 Non-disclosure Agreements, with 3,229 unique pages and 2,160 entities to extract. We provide several state-of-the-art baseline systems from the KIE domain (Flair, BERT, RoBERTa, LayoutLM, LAMBERT), which show that our datasets pose a strong challenge to existing models. The best model achieved an 81.77\% and an 83.57\% F1-score on respectively the Kleister NDA and the Kleister Charity datasets. We share the datasets to encourage progress on more in-depth and complex information extraction tasks.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/LSTVMQJ7/Stanisławek et al. - 2021 - Kleister Key Information Extraction Datasets Invo.pdf}
+}
+
+@misc{tanakaVisualMRCMachineReading2021,
+  title = {{{VisualMRC}}: {{Machine Reading Comprehension}} on {{Document Images}}},
+  shorttitle = {{{VisualMRC}}},
+  author = {Tanaka, Ryota and Nishida, Kyosuke and Yoshida, Sen},
+  year = {2021},
+  month = may,
+  number = {arXiv:2101.11272},
+  eprint = {2101.11272},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {Recent studies on machine reading comprehension have focused on text-level understanding but have not yet reached the level of human understanding of the visual layout and content of real-world documents. In this study, we introduce a new visual machine reading comprehension dataset, named VisualMRC, wherein given a question and a document image, a machine reads and comprehends texts in the image to answer the question in natural language. Compared with existing visual question answering (VQA) datasets that contain texts in images, VisualMRC focuses more on developing natural language understanding and generation abilities. It contains 30,000+ pairs of a question and an abstractive answer for 10,000+ document images sourced from multiple domains of webpages. We also introduce a new model that extends existing sequence-to-sequence models, pre-trained with large-scale text corpora, to take into account the visual layout and content of documents. Experiments with VisualMRC show that this model outperformed the base sequence-to-sequence models and a state-of-the-art VQA model. However, its performance is still below that of humans on most automatic evaluation metrics. The dataset will facilitate research aimed at connecting vision and language understanding.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition},
+  file = {/home/lukas/Zotero/storage/CBQ5SEG9/Tanaka et al. - 2021 - VisualMRC Machine Reading Comprehension on Docume.pdf}
 }
 
 @misc{tangUnifyingVisionText2022,
@@ -112,6 +331,24 @@
   file = {/home/lukas/Zotero/storage/XEPP4VYK/Tschannen et al. - 2022 - Image-and-Language Understanding from Pixels Only.pdf}
 }
 
+@inproceedings{xuLayoutLMPretrainingText2020,
+  title = {{{LayoutLM}}: {{Pre-training}} of {{Text}} and {{Layout}} for {{Document Image Understanding}}},
+  shorttitle = {{{LayoutLM}}},
+  booktitle = {Proceedings of the 26th {{ACM SIGKDD International Conference}} on {{Knowledge Discovery}} \& {{Data Mining}}},
+  author = {Xu, Yiheng and Li, Minghao and Cui, Lei and Huang, Shaohan and Wei, Furu and Zhou, Ming},
+  year = {2020},
+  month = aug,
+  eprint = {1912.13318},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  pages = {1192--1200},
+  doi = {10.1145/3394486.3403172},
+  abstract = {Pre-training techniques have been verified successfully in a variety of NLP tasks in recent years. Despite the widespread use of pre-training models for NLP applications, they almost exclusively focus on text-level manipulation, while neglecting layout and style information that is vital for document image understanding. In this paper, we propose the \textbackslash textbf\{LayoutLM\} to jointly model interactions between text and layout information across scanned document images, which is beneficial for a great number of real-world document image understanding tasks such as information extraction from scanned documents. Furthermore, we also leverage image features to incorporate words' visual information into LayoutLM. To the best of our knowledge, this is the first time that text and layout are jointly learned in a single framework for document-level pre-training. It achieves new state-of-the-art results in several downstream tasks, including form understanding (from 70.72 to 79.27), receipt understanding (from 94.02 to 95.24) and document image classification (from 93.07 to 94.42). The code and pre-trained LayoutLM models are publicly available at \textbackslash url\{https://aka.ms/layoutlm\}.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/CD2HLWLB/Xu et al. - 2020 - LayoutLM Pre-training of Text and Layout for Docu.pdf}
+}
+
 @misc{xuLayoutLMv2MultimodalPretraining2022,
   title = {{{LayoutLMv2}}: {{Multi-modal Pre-training}} for {{Visually-Rich Document Understanding}}},
   shorttitle = {{{LayoutLMv2}}},
@@ -128,4 +365,22 @@
   langid = {english},
   keywords = {Computer Science - Computation and Language},
   file = {/home/lukas/Zotero/storage/X3A82DKR/Xu et al. - 2022 - LayoutLMv2 Multi-modal Pre-training for Visually-.pdf}
+}
+
+@misc{zhongPubLayNetLargestDataset2019,
+  title = {{{PubLayNet}}: Largest Dataset Ever for Document Layout Analysis},
+  shorttitle = {{{PubLayNet}}},
+  author = {Zhong, Xu and Tang, Jianbin and Yepes, Antonio Jimeno},
+  year = {2019},
+  month = aug,
+  number = {arXiv:1908.07836},
+  eprint = {1908.07836},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  abstract = {Recognizing the layout of unstructured digital documents is an important step when parsing the documents into structured machine-readable format for downstream applications. Deep neural networks that are developed for computer vision have been proven to be an effective method to analyze layout of document images. However, document layout datasets that are currently publicly available are several magnitudes smaller than established computing vision datasets. Models have to be trained by transfer learning from a base model that is pre-trained on a traditional computer vision dataset. In this paper, we develop the PubLayNet dataset for document layout analysis by automatically matching the XML representations and the content of over 1 million PDF articles that are publicly available on PubMed Central\texttrademark. The size of the dataset is comparable to established computer vision datasets, containing over 360 thousand document images, where typical document layout elements are annotated. The experiments demonstrate that deep neural networks trained on PubLayNet accurately recognize the layout of scientific articles. The pre-trained models are also a more effective base mode for transfer learning on a different document domain. We release the dataset (https://github.com/ibm-aur-nlp/PubLayNet) to support development and evaluation of more advanced models for document layout analysis.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language},
+  file = {/home/lukas/Zotero/storage/ATQV4U63/Zhong et al. - 2019 - PubLayNet largest dataset ever for document layou.pdf}
 }

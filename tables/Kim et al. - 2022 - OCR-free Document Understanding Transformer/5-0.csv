@@ -1,6 +1,0 @@
-,,Fine-tuning set,OCR #Params*,Time (ms,) test set,ANLS* handwritten
-0,BERT [64],train set,110Ma,1517,63.5,n/a
-1,LayoutLM[65],train set,113M + a,1519,69.8,n/a
-2,LayoutLMv2[64],train set,200M + a,1610,78.1,n/a
-3,Donut,train set,176M,782,67.5,72.1
-4,Layout LMV2-Large-QG[64],train + dev + QG,√ 390M + a²,1698,86.7,67.3
