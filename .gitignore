@@ -1,0 +1,7 @@
+credentials.pkl
+docAI.ipynb
+splits
+table_getter.py
+.ipynb_checkpoint*
+__pycache__
+.~lock*

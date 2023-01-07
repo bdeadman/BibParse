@@ -1,0 +1,6 @@
+,Pretrain Objectives,#Pretrain Data,DocVQA,RVL-CDIP
+0,MLM,11.0M,79.7,95.3
+1,UDOP-Dual,,,
+2,Self-Supervised + Supervised,11.0M 12.8M,83.5 84.1,95.8 96.1
+3,UDOP,,,
+4,Self-Supervised + Supervised,11.0M 12.8M,84.4 85.0,96.2 96.3

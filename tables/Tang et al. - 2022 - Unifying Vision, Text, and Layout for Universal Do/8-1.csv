@@ -1,0 +1,4 @@
+,Input Sequence:,
+0,"""Joint Text-Layout Reconstruction. <text_layout_0>",
+1,"to Retail: Week <text_layout_1> March 14, 1994""",
+2,"Target Sequence: ""<text_layout_0> Ship Date <100><350><118><<text_layout_1> of <100><370><118><382>""",372>

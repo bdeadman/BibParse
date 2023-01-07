@@ -1,0 +1,7 @@
+,,,CLIPPO tokenization,efficiency compared to baselines.
+0,,,,tokenizer
+1,,,,mT5 (32k)
+2,,,,T5-all
+3,,,,T5-en WebLI CLIPPO
+4,-,-,,
+5,0,Thai Greek,Welsh Armenian Sindhi Javanese Macedonian,Uzbek Xhosa English Gaelic German Romanian Icelandic Amharic Chinese

@@ -1,0 +1,5 @@
+,Layer Type,Complexity per Layer,Sequential Operations,Maximum Path Length
+0,Self-Attention,O(n² d),O(1),O(1)
+1,Recurrent,O(n.d²),O(n),O(n)
+2,Convolutional,O(k.n.d²),O(1),O(log(n))
+3,Self-Attention (restricted),O(r.n. d),O(1),O(n/r)

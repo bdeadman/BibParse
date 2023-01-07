@@ -1,0 +1,6 @@
+,,(b) Prediction,(c) Ground Truth
+0,"{ """"""""""""""","{ date"":""20171115"", destination_station"":"""", name"": ""£¬J"", seat_category"": """", starting_station"":"""", ticket_num"": ""C068987"", ticket_rates"": \82.0"",","""date"":""20171115"", ""destination_station"":"""", ""name"": """", ""seat_category"": """", ""starting_station"":"""", ""ticket_num"": ""C068987"", ""ticket_rates"": ¥82.0"", train_num"": ""G79"""
+1,"""} { """"""""""""""""}","train_num"": ""G79"" } { date"": ""20171205"", destination_station"": """", name"": """" seat_category"": """", starting_station"":"""", ticket_num"": ""E019154"", ticket_rates"": ""¥99.5"", train_num"": ""C7128"" }","""""date"":""201712058"", ""destination_station"": ""IL"", ""name"": """", ""seat_category"": """", ""starting_station"":"""" ""ticket_num"": ""E019154"", ""ticket_rates"": ""¥99.5"", ""train_num"": ""C7128"""
+2,"{ """"""""""","{ date"": ""20180213"", destination_station"": """", name"":"""", seat_category"": """", starting_station"":"""",","""date"": ""20180213"", ""destination_station"": ""\""""name"":"""", ""seat_category"": """", ""starting_station"":"""","
+3,"""""""","ticket_num"": ""J033534"", ticket_rates"": ""\367.0"", train_num"": ""K1301""","""ticket_num"": ""J033534"", ""ticket_rates"": ""¥367.0"", ""train_num"": ""K1301"""
+4,},},}

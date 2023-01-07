@@ -1,0 +1,4 @@
+,Model,Modality,DocVQA
+0,TILT large(w/ the auxiliary training),V+T+L,87.1
+1,UDOP (w/o the auxiliary training),V+T+L,84.7
+2,UDOP (w/ the auxiliary training),V+T+L,87.8
