@@ -1,6 +1,7 @@
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
 import pandas as pd
+import webbrowser
 
 
 def parse_bibtex(cols, file='bibliography.bib'):
@@ -25,3 +26,9 @@ def parse_bibtex(cols, file='bibliography.bib'):
     bib_df = bib_df[[c for c in cols if c in bib_df.columns]]
     
     return bib_df
+
+
+def open_pdfs(df):
+    
+    for x in df.file.to_list():
+        webbrowser.open_new_tab("pdfs/" + x)
