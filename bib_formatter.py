@@ -49,7 +49,12 @@ def save_xlsx(
         
     if os.path.isfile(write_file):
         old = pd.read_excel(write_file).set_index("title")
+        # Column "note" is never overwritten:
         df["note"] = old["note"]
+        # Columns manually added in xlsx are kept:
+        for col in old.columns:
+            if col not in df.columns:
+                df[col] = old[col]
         
     df = df.fillna("").reset_index()
         
