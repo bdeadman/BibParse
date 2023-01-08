@@ -28,7 +28,7 @@ def save_xlsx(
     cellf = dict(
         text_wrap=True,
         right=1,
-        align="left",
+        align="center",
         valign="vcenter",
         indent=1,
     )
@@ -79,5 +79,7 @@ def save_xlsx(
 
     for i, width in enumerate(get_col_widths(df, cols)):
         worksheet.set_column(i, i, width / row_height + 15)
+        
+    worksheet.set_row(0, 30)
         
     workbook.close()
