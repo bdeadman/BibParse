@@ -11,3 +11,5 @@ You can now open the parser.ipynb notebook and execute it. The .bib file will be
 In addition, the DataFrame is exported to a nicely formatted .xlsx file.
 
 There is also a column *note* in the file, in which you can add custom info about the paper. This column will not be overwritten when you add entries to the .bib file and re-parse it.
+
+This repo is already populated with papers on transformer models and especially VDU (Visual Document Understanding) to have a complete example of the module usage.
