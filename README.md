@@ -8,7 +8,9 @@ Now you have an auto-updating file with all metadata collected on all literature
 In addition you can select entries in Zotero -> File -> *Export PDF* and save them to pdf folder in this repo.
 
 You can now open the parser.ipynb notebook and execute it. The .bib file will be transformed in a DataFrame with the columns you specify.
-In addition, the DataFrame is exported to a nicely formatted .xlsx file.
+In addition, the DataFrame is exported to a nicely formatted .xlsx file:
+
+![image](https://user-images.githubusercontent.com/65038289/224547900-406ae2b8-9f23-4a28-84e9-9da939e1ab16.png)
 
 There is also a column *note* in the file, in which you can add custom info about the paper. This column will not be overwritten when you add entries to the .bib file and re-parse it.
 
