@@ -6,7 +6,7 @@ import webbrowser
 
 def parse_bibtex(cols, file='bibliography.bib'):
 
-    with open(file) as bibtex_file:
+    with open(file, 'r', encoding='utf-8') as bibtex_file:
         bibtex_str = bibtex_file.read()
 
     parser = BibTexParser()
